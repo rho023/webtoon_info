@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Webtoon Info</string>
+    <string name="featured_text">Featured...</string>
+    <string name="tower_description">Tower of God focuses on\nTwenty-Fifth Bam, the young\nprotagonist of the manhwa,\nwho is determined to ...</string>
+    <string name="noblesse_description">After being in a slumber for over\n800 years, Cadis Etrama Di\nRaizel, aka Rai, wakes up in an\nunfamiliar modern world ...</string>
+    <string name="second_description">Second Life Ranker tells the\nstory of Yeon-Woo who is\nsearching for his twin brother.\nHe stumbles upon hints that ...</string>
+    <string name="favorite_fab_speakable_text">Add to favorites</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebtoonDetail">
+
+    <ScrollView
+        android:id="@+id/detailScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Tower of God Anime Season 1 Ending Explained"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating: "
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detailRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4.0"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/baseline_star_24"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Genre: "
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/detailGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Fantasy"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:text="Rate: "
+                    android:textSize="18sp"/>
+
+                <RatingBar
+                    android:id="@+id/detailRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:numStars="5"
+                    android:stepSize="1" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/detailCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/detailImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tower_of_god_detail" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/detailIntro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Now that Tower of God anime Season 2 is about to release, we suggest you dwell in the world of Twenty-Fifth Bam and his exploration of the titular Tower. The show follows the main character Bam who is determined to leave no stone unturned to find his friend Rachel in this mysterious Tower. As he enters the Tower as an Irregular he needs to pass several tests to keep climbing the Tower.\n\nThe Tower of God anime adaptation covered several arcs in Season and the show concluded with a major cliffhanger – the viewers saw Bam sinking to the bottom of a deep sea of Shinsu after being pushed by Rachel. However, what made Bam’s greatest love turn against him? In this blog, we will discuss the ending of the first season of Tower of God."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/detailSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Why did Rachel Turn Against Bam?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/detailImage2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tower_detail2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Rachel is revealed to be the villain in the first season of Tower of God anime. But what made her turn against Bam? Rachel’s only dream is to climb the Tower but when she arrives Headon informs her that “the tower wasn’t calling you” and denies her entry. However, this wasn’t the case with Bam whom Headon refers to as a “savior”. This further intensifies Rachel’s intense jealousy towards Bam.\n\nHowever, Headon offered an opportunity to climb the tower and prove her worth: “If you can bring [Bam’s] life to a close, I will allow you to climb the tower.” The condition is that she does it with her own hands. She finally got the opportunity to fulfill this order in Episode 12 in their shared bubble underwater, where she ended Bam’s climb in the Tower to continue her own."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
